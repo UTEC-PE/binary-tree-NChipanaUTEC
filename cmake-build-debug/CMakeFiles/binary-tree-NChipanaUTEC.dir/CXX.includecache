@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chip/Algoritmos y Estructuras de Datos/binary-tree-NChipanaUTEC/main.cpp
+tree.h
+/home/chip/Algoritmos y Estructuras de Datos/binary-tree-NChipanaUTEC/tree.h
+
+/home/chip/Algoritmos y Estructuras de Datos/binary-tree-NChipanaUTEC/node.h
+
+/home/chip/Algoritmos y Estructuras de Datos/binary-tree-NChipanaUTEC/tree.h
+node.h
+/home/chip/Algoritmos y Estructuras de Datos/binary-tree-NChipanaUTEC/node.h
+iostream
+-
+
