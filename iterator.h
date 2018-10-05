@@ -26,6 +26,7 @@ public:
     Iterator operator++(){
         pile.pop();
         current = pile.top();
+        // No estás retornando nada
     }
 
     bool operator!=(Iterator other){

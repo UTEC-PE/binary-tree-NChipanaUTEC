@@ -86,11 +86,11 @@ public:
 
     Node* minNodo(Node* nodo){
         if(!nodo){return nullptr;}
-        while(!nodo -> left){nodo = nodo -> left;}
+        while(!nodo -> left){nodo = nodo -> left;}  // No estás retornando
     }
     Node* maxNodo(Node* nodo){
         if(!nodo){return nullptr;}
-        while(!nodo -> right){nodo = nodo -> right;}
+        while(!nodo -> right){nodo = nodo -> right;} // No estás retornando
     }
 
     void remove(int data, Node* nodo){
@@ -123,6 +123,10 @@ public:
         }
     }
 
+    int weight() {
+        return weight(raiz);
+    }
+
     int weight(Node* nodo) {
         if (nodo) {
             return 1 + weight(nodo->left) + weight(nodo->right);
@@ -142,6 +146,8 @@ public:
     stack<Node*> getStack(){
         return nodos;
     }
+
+    // Falta el destructor
 
 };
 
