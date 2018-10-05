@@ -1,0 +1,4 @@
+/home/chip/Documentos/CLion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/cc -DCMAKE_CXX_COMPILER=/usr/bin/c++ -G "CodeBlocks - Unix Makefiles" "/home/chip/Algoritmos y Estructuras de Datos/binary-tree-NChipanaUTEC"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/chip/Algoritmos y Estructuras de Datos/binary-tree-NChipanaUTEC/cmake-build-debug

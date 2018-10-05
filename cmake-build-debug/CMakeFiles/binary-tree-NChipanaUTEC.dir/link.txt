@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/binary-tree-NChipanaUTEC.dir/main.cpp.o  -o binary-tree-NChipanaUTEC 
